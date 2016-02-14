@@ -1,0 +1,1078 @@
+
+body{
+    background: #F0F0F0 ;
+    margin: 0;
+}
+
+#menu{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    padding:0;
+    
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    -webkit-border-bottom-right-radius: 1px;
+    -webkit-border-bottom-left-radius: 1px;
+    -moz-border-radius-bottomright: 1px;
+    -moz-border-radius-bottomleft: 1px;
+      
+    
+    text-align:center;
+  
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    background: -webkit-linear-gradient(#669966, #266A2E,#669966); 
+    background: -o-linear-gradient(#669966, #266A2E,#669966); 
+    background: -moz-linear-gradient(#669966, #266A2E,#669966); 
+    background: linear-gradient(#669966, #266A2E,#669966);
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+#menu button{
+    width: 150px;
+    height: 30px;
+    background: #458B00;
+    display:inline-block;
+    color: #FFFFFF;
+    border: 1px solid black;
+}
+#telosite{
+    height: 800px;
+    border-bottom: 2px solid black;
+    padding:0;
+}
+#telo {
+    
+    height: auto;
+    width: 925px;
+    margin: 10px auto 0 auto;
+    background: #FFFFFF;
+    -webkit-box-shadow: #131313 0px 2px 10px;
+    -moz-box-shadow: #131313 0px 3px 10px;
+    box-shadow: #131313 0px 3px 10px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#prikaz{
+    padding: 20px;
+    position: absolute;
+    height: 760px;
+    width: 660px;
+    border-right:2px solid black;
+    overflow-y: scroll;
+}
+#form{
+    height: 40px;
+    width: 90%;
+    border: 2px solid black;
+    background: #33FFFF;
+}
+#nick{
+    height: 10px;
+    width: 100%;
+    border-bottom:2px solid black;
+    background: #336633;
+}
+#comm{
+    height: 20px;
+    width: 100%;
+    border-top: 2px solid black;
+}
+#okvirlogovanje{
+    width: 1000px;
+    height: 700px;
+    margin: 20px auto 0 auto;
+    background: #FFFFFF;
+    -webkit-box-shadow: #131313 0px 2px 10px;
+    -moz-box-shadow: #131313 0px 3px 10px;
+    box-shadow: #131313 0px 3px 10px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#logovanjelogo{
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    
+}
+#logovanjeforma{
+    
+    padding-left:20px;
+    padding-top: 5px;
+    padding-right:20px;
+    width: 230px;
+    height: content-box;
+    border: 2px solid #D3D3D3;
+    margin-left:700px;
+    margin-top: 20px;
+    -moz-box-shadow: 0px 0px 8px #458B00;
+    -webkit-box-shadow: 0px 0px 8px #458B00;
+}
+#logovanjeforma hr {
+    color: #D3D3D3;
+}
+#logovanjeforma img{
+    margin-left: 50px;
+}
+#okvirlogovanje input{
+    width: 220px;
+    height: 30px;
+    font-size: 18px;
+}
+#okvirlogovanje button{
+    width: 150px;
+    height: 30px;
+    background: #458B00;
+    display:inline-block;
+    color: #FFFFFF;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+#okvirlogovanje,p1{
+    font-size: 20px;
+}
+#adminokvir{
+   width: 900px;
+   height: 900px;
+   border: 2px solid black;
+   margin: 0 auto 0 auto;
+}
+#heder img{
+    width: 130px;
+}
+#logovanjeforma img{
+    width: 130px;
+}
+#logovanjeforma a{
+   font-size: 18px;
+   font-style: normal;
+}
+#adminbocnimeni{
+    position: absolute;
+    width: 160px;
+    height: 860px;
+    border-right: 2px solid black;
+    padding:20px;
+    
+    background: -webkit-linear-gradient(#ebfff5, #c7fce2); 
+    background: -o-linear-gradient(#ebfff5, #c7fce2); 
+    background: -moz-linear-gradient(#ebfff5, #c7fce2); 
+    background: linear-gradient(#ebfff5, #c7fce2); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+#admintelo{
+    padding: 20px;
+    margin-left: 200px;
+    width: 660px;
+    height: 860px;
+    overflow: auto;
+}
+#admintelo2{
+    padding: 20px;
+    margin-left: 200px;
+    width: 660px;
+    height: 860px;
+    overflow: auto;
+}
+#adminbocnimeni button{
+    width: 160px;
+    height: 30px;
+    background: #458B00;
+    color: #FFFFFF;
+    border: 2px solid black;
+    margin-top: 2px;
+}
+#adminbocnimeni button:hover{
+    background: #4b545f;
+        color: #FFF;
+}
+#adminbocnimeni button:active{
+    position:relative;
+	top:1px;
+}
+#admintelo input{
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#adminvestiforma textarea{
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#admintelo button{
+    width: 160px;
+    height: 30px;
+    background: #458B00;
+    color: #FFFFFF;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+div.Vest {
+    width: 190px;
+    margin: 0 0 20px 0;
+    border: 2px solid #333;
+    border-bottom-left-radius: 15px;
+}
+div.Vest div.Autor {
+    float: left;
+    width: 180px;
+    background-color: #445668;
+    padding-left: 10px;
+    font-size: 22px;
+    font-style: oblique;
+}
+div.Vest div.Autor a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+div.Vest div.Sadrzaj{
+    background: #D3D3D3;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 170px;
+    word-wrap:break-word;  /* <--Ovo ne radi posao a posao mu je da unutar polja div lepo slaze tekst kako on ne bi izlazio...*/
+
+}
+div.Vest div.Sadrzaj a{
+    
+    color: #131313;
+    text-decoration: none;
+}
+div.Vest div.Datum{
+    padding-left: 10px;
+    width: 180px;
+    background-color: #458B00;
+    color: #FFFFFF;
+    border-bottom-left-radius: 15px;
+    font-size: 12px;
+}
+
+#indexdesnimeni{
+    margin-left: 700px;
+    width:195px;
+    height: 768px;
+    padding: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image:url('img/pozadina.jpg');
+    background-repeat: repeat;
+}
+h1 {
+    font-size: 35px; color: #445668; text-transform: uppercase;
+    text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
+}
+p1{
+    font-size: 20px; color: #445668; text-transform: none;
+    text-align: left; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
+}
+#futer{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    padding:0;
+    text-align:center;
+
+}
+#heder{
+    position: relative;
+    height: 110px;
+    width: 100%;
+    padding:0;
+    background: url('img/bar.png');
+    text-align:center;
+}
+#adminbrisi{
+    padding: 5px;
+    position: fixed;
+    width: 660px;
+    height: 30px;
+    border-bottom: 2px solid #458B00;
+    border-top: 2px solid #458B00;
+    background: #F0F0F0;
+}
+#hedlog{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 250px;
+}
+#btnSocial{
+    width:70px;
+    position: relative;
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+#btnSocial:hover{
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform:scale(1.5,1.5);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+}
+#btnSocial2{
+    width:50px;
+    position: relative;
+    opacity: 0.5;
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    
+}
+#btnSocial2:hover{
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+}
+.social2{
+    top:0;
+    left:0;
+}
+#profil{
+    float: right;
+    width: 221px;
+    height: 80px;
+    margin-bottom: 4px;
+}
+#indexmenulogo{
+    float: left;
+    width: 200px;
+    height: 80px;
+    
+}
+#indexmenudugmad{
+    float: left;
+    width: 700px;
+    height: 35px;
+    color: #000;
+    margin-top: 4px;
+    background: #efefef; 
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+#indexmenucentar{
+    float: right;
+    width: 493px;
+    height: 80px;
+}
+#indexmenupolje{
+    float: right;
+    width: 221px;
+    height: 32px;
+}
+ /* <--Ovo je CSS za profil za Moj profil dugme*/
+ #navprofil ul {
+    margin: 0px;
+    background: #efefef; 
+    list-style: none;
+    position: relative;
+    float: right;
+    width: 185px;
+    height: 32px;
+    display: inline-block;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    
+}
+#navprofil ul:after {
+    clear: both; display: block;
+}
+#navprofil ul ul {
+    display: none;
+    position: relative;
+}
+#navprofil ul li:hover > ul {
+    display: block;
+    width: 150px; 
+}
+#navprofil ul ul {
+    background: #5f6975; border-radius: 0px; padding: 0;
+    position: absolute;
+}
+#navprofil ul ul li {
+    float: none; 
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+#navprofil ul ul li a {
+    color: #fff;
+    background: #5f6975;
+    padding: 0;
+    margin: 0;
+}	
+#navprofil ul ul li a:hover {
+    background: #4b545f;
+}
+#navprofil ul li {
+    float: left;
+}
+#navprofil ul li:hover {
+    background: #4b545f;
+}
+#navprofil ul li:hover a {
+    color: #fff;
+}
+#navprofil ul li a {
+    width: 150px;
+    display: block; 
+    color: #757575; 
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 17px;
+}
+/* <--kraj dugmeta za moj profil*/
+#prikaz1{
+    height: 900px;
+}#prikaz2{
+    height: 900px;
+}
+.tabela {
+	margin:0px;padding:0px;
+	width:100%;
+	border:1px solid #3f7f00;
+	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+}.tabela table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.tabela tr:last-child td:last-child {
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.tabela table tr:first-child td:first-child {
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+}
+.tabela table tr:first-child td:last-child {
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+}.tabela tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+}.tabela tr:hover td{
+	background-color:#ffffff;
+}
+.tabela td{
+	vertical-align:middle;
+	
+	background-color:#d4ffaa;
+
+	border:1px solid #3f7f00;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:7px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.tabela tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.tabela tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.tabela tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.tabela tr:first-child td{
+		background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5fbf00), color-stop(1, #3f7f00) );
+	background:-moz-linear-gradient( center top, #5fbf00 5%, #3f7f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#5fbf00", endColorstr="#3f7f00");	background: -o-linear-gradient(top,#5fbf00,3f7f00);
+
+	background-color:#5fbf00;
+	border:0px solid #3f7f00;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.tabela tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5fbf00), color-stop(1, #3f7f00) );
+	background:-moz-linear-gradient( center top, #5fbf00 5%, #3f7f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#5fbf00", endColorstr="#3f7f00");	background: -o-linear-gradient(top,#5fbf00,3f7f00);
+
+	background-color:#5fbf00;
+}
+.tabela tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.tabela tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+#adminteloutakmice{
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    width: 660px;
+    height: 300px;
+    
+    background: -webkit-linear-gradient(#ebfff5, #c7fce2); 
+    background: -o-linear-gradient(#ebfff5, #c7fce2); 
+    background: -moz-linear-gradient(#ebfff5, #c7fce2); 
+    background: linear-gradient(#ebfff5, #c7fce2); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+#admintelopregledutakmice{
+    float: left;
+    width: 660px;
+    height: 300px;
+    border: 2px solid black;
+}	
+#indexmenudugmad a{
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    
+    background-color:#89c403;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:8px 24px;
+    text-decoration:none;
+    
+}
+#indexmenudugmad a:hover{
+        background: #4b545f;
+        color: #FFF;
+}
+#indexmenudugmad a:active {
+	position:relative;
+	top:1px;
+}
+#prikaz1div1{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 700px;
+    height: 200px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+}
+#prikaz1div2{
+     margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 700px;
+    height: 200px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+}
+#prikaz1div3{
+     margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 700px;
+    height: 200px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+}
+#prikaz1 div p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-style: initial;
+    color: #0c5704;
+}
+#prikaz1 h3{
+    font-size: 30px;
+    font-style: oblique;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#prikaz2div1{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 600px;
+    height: 200px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+}
+#prikaz2div1a{
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    width: 290px;
+    height: 200px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    background: #e5f8e0;
+}
+#prikaz2div2{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+}
+#prikaz2div2a{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 1px solid #e3e3e1;
+    border-radius: 4px;
+    width: 290px;
+    height: 200px;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    background: #e5f8e0;
+}
+
+#prikaz2 h3{
+    font-size: 30px;
+    font-style: oblique;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#prikaz1 button{
+    float: right;
+    margin-right: 5px;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    
+    background-color:#89c403;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    border: 1px solid #bbbbbb;
+}
+#prikaz1 button:hover{
+    background: #4b545f;
+        color: #FFF;
+}
+#prikaz1 button:active{
+    position:relative;
+	top:1px;
+}
+#prikaz1slika1{
+    margin-right: 5px;
+    margin-top: 10px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    
+}
+#prikaz1slika2{
+    margin-right: 5px;
+    margin-top: 10px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    
+}
+#prikaz1slika3{
+    margin-right: 5px;
+    margin-top: 10px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    }
+#heder button{ 
+    float: left;
+    border: 1px solid black;
+    background: #669966;
+    color: #FFF;
+    width: 100px;
+    height: 30px;
+    }
+#okvirregistracija{
+    width: 1000px;
+    height: 900px;
+    margin: 20px auto 0 auto;
+    background: #FFFFFF;
+    -webkit-box-shadow: #131313 0px 2px 10px;
+    -moz-box-shadow: #131313 0px 3px 10px;
+    box-shadow: #131313 0px 3px 10px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#regmenu{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    
+    background: -webkit-linear-gradient(#669966, #477647); 
+    background: -o-linear-gradient(#669966, #477647); 
+    background: -moz-linear-gradient(#669966, #477647); 
+    background: linear-gradient(#669966, #477647);
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+#regmenulogo{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#regtelo{
+    width: 500px;
+    height: 600px;
+    
+    margin: 0 auto 0 auto;
+    
+}
+#regtelo input{
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#regtelo button{
+    float: right;
+    margin-right: 65px;
+    
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    
+    background-color:#89c403;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    border: 1px solid #bbbbbb;
+}
+#regtelo button:hover{
+    background: #4b545f;
+    color: #FFF;
+}
+#regtelo button:active{
+    position:relative;
+    top:1px;
+}
+#regtelo p{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#regtelo h2{
+    margin-left: 30px;
+    font-style: oblique; 
+}
+#regmenulogo2{
+    margin: 0 auto 0 auto;
+    width: 150px;
+    height: 100px;
+}
+#adminokvir2{
+   width: 900px;
+   height: 900px;
+   border: 2px solid black;
+   margin: 0 auto 0 auto;
+}
+#admin{
+    padding: 20px;
+    margin-left: 200px;
+    width: 660px;
+    height: 850px;
+    overflow: scroll;
+}
+#admintelo2 table{
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    border: 1px solid #efefef;
+}
+#tfnewsearch{
+		float:center;
+		padding:20px;
+	}
+.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+.tfbutton:-moz-focus-inner {
+	  border: 0;
+	}
+.tfclear{
+		clear:both;
+	}
+#kor{
+            color:#266A2E;
+        }
+        #allbutton{
+            border: 1px solid black;
+            background: #669966;
+            color: #FFF;
+            width: 100px;
+            height: 30px;
+        }
+        #allbutton:hover{
+            background: #4b545f;
+            color: #FFF;
+        }
+        #allbutton:active{
+            position:relative;
+            top:1px;
+        }
+        #prikaz5{
+            height: 900px;
+            overflow: scroll;
+        }
+        #prikaz5div{
+            width: 500px;
+            height: 200px;
+            border: 1px solid #E0E0E0 ;
+            border-radius: 10px;
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            background: #e5f8e0;
+            margin-top: 5px;
+            margin-left: 30px;
+        }
+        #prikaz5divab{
+            font-size: 35px;
+            color: #000;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        #prikaz5divaa{
+            float: left;
+            font-size: 30px;
+            color: #000;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        #prikaz5diva{
+            width: 499px;
+            height: 100px;
+            border: 1px solid #E0E0E0 ;
+            background: #FFF;
+            margin-top: 50px;
+        }
+        #prikaz5divaab{
+            float: right;
+            font-size: 15px;
+            color: #000;
+            font-style:oblique;
+            margin-top: 80px; 
+            margin-right: 20px;
+        }
+        #prikaz5slika{
+            float: left;
+            width: 70px;
+            height: 70px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        #prikaz5div button{
+            float: right;
+            margin-right: 5px;
+            margin-top: 5px;
+            width: 90px;
+            height: 30px;
+            background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+            background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+            background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+
+            background-color:#89c403;
+            display:inline-block;
+            cursor:pointer;
+            color:#000;
+            font-family:arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            border: 1px solid #bbbbbb;
+        }
+         #prikaz5div button:hover{
+            background: #4b545f;
+            color: #FFF;
+        }
+        #prikaz5div button:active{
+            position:relative;
+            top:1px;
+        }
+        #prikaz5 h2{
+            font-size: 25px;
+            font-style: oblique;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        #statdiv{
+            width: 600px;
+            height: 320px;
+            border-radius: 15px;
+            border: 1px solid #D3D3D3;
+            background: #c7fce2;
+        }
+        #statdiv1{
+            float: left;
+            width: 198px;
+            height: 250px;
+            margin-top: 50px;
+            background:#FFF;
+            border: 1px solid #D3D3D3;
+        }
+        #statdiv2{
+            float: left;
+            width: 198px;
+            height: 250px;
+            margin-top: 2px;
+            background:#FFF;
+            border: 1px solid #D3D3D3;
+        }
+        #statdiv3{
+            float: left;
+            width: 198px;
+            height: 250px;
+            margin-top: 50px;
+            background:#D3D3D3;
+            border: 1px solid #D3D3D3;
+        }
+        #p1{
+            margin-left: 30px;
+            font-size: 50px;
+            font-style: inherit;
+            color:#000;
+           
+        }
+        #p2{
+            margin-left: 10px;
+            font-size: 20px;
+            font-style: oblique;
+            color:#000;
+        }
+        #p3{
+            float: right;
+            margin-right: 10px;
+            font-size: 15px;
+            color: #000;
+        }
+        #fusnota{
+            margin-top: 2px;
+            width: 925px;
+            height: 110px;
+            margin: 0 auto 0 auto;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            background: #404040; 
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+        }
+        #fus1{
+            float: left;
+            width: 250px;
+            height: 100px;
+        }
+        #fus2{
+            float: left;
+            width: 250px;
+            height: 100px;
+        }
+        #fus3{
+            float: right;
+            width: 300px;
+            height: 100px;
+        }
+        #fus1 ul{
+            list-style: none;
+            margin-left: 10px;
+        }
+        #fus1 a{
+            text-decoration: none;
+            color: #808080 ;
+        }
+        #fus1 a:hover{
+            color: #C8C8C8 ;
+        }
+        #fus2 ul{
+            list-style: none;
+            margin-left: 10px;
+        }
+        #fus2 a{
+            text-decoration: none;
+            color: #808080 ;
+            font-style: normal;
+        }
+        #fus2 a:hover{
+             color: #C8C8C8 ;
+        }
+        #fus3 img{
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
